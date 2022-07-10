@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 2</title>
+    <style>
+        body {
+            background-color: blanchedalmond;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            width: 90vw;
+        }
+
+        .block {
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            border-radius: 5%;
+            background-color: lightcyan;
+        }
+
+        .colored {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="block" onclick="addBGColor(this)"></div>
+        <div class="block" onclick="addBGColor(this)"></div>
+        <div class="block" onclick="addBGColor(this)"></div>
+        <div class="block" onclick="addBGColor(this)"></div>
+        <div class="block" onclick="addBGColor(this)"></div>
+        <div class="block" onclick="addBGColor(this)"></div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
